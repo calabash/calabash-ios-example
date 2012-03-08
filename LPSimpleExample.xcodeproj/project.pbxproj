@@ -21,13 +21,11 @@
 		B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
 		B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
 		B137AE02143F7109007184CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE01143F7109007184CB /* MapKit.framework */; };
-		B142FBC0150567D300F13124 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE24143F766F007184CB /* CFNetwork.framework */; };
 		B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
 		B1497426144B4CBE00E6EE79 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
 		B19151CD14549E1200A70274 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
 		B19151D314549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
 		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
-		OEF1548BC9F5FB84A3F1CCDF /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF17C60A91C7F80C6E0B744 /* calabash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +52,6 @@
 		B137ADF7143F6EBF007184CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPFirstViewController.xib; sourceTree = "<group>"; };
 		B137ADFA143F6EBF007184CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPSecondViewController.xib; sourceTree = "<group>"; };
 		B137AE01143F7109007184CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		B137AE24143F766F007184CB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPThirdViewController.xib; sourceTree = "<group>"; };
 		B1497424144B4CBE00E6EE79 /* LPThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPThirdViewController.h; sourceTree = "<group>"; };
 		B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPThirdViewController.m; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		OEF17C60A91C7F80C6E0B744 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 				B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */,
 				B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */,
 				B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */,
-				OEF1548BC9F5FB84A3F1CCDF /* calabash.framework in Frameworks */,
-				B142FBC0150567D300F13124 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,11 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				B137AE01143F7109007184CB /* MapKit.framework */,
-				B137AE24143F766F007184CB /* CFNetwork.framework */,
 				B137ADD6143F6EBF007184CB /* UIKit.framework */,
 				B137ADD8143F6EBF007184CB /* Foundation.framework */,
 				B137ADDA143F6EBF007184CB /* CoreGraphics.framework */,
-				OEF17C60A91C7F80C6E0B744 /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
