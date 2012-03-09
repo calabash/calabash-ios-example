@@ -5,7 +5,7 @@
 //  Created by Karl Krukow on 07/10/11.
 //  Copyright (c) 2011 Trifork. All rights reserved.
 //
-
+#import <MapKit/MapKit.h>
 #import "LPSecondViewController.h"
 
 @implementation LPSecondViewController
@@ -19,11 +19,23 @@
     }
     return self;
 }
-							
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+- (void)mapView:(MKMapView *)aMapView didUpdateUserLocation:(MKUserLocation *)aUserLocation {
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    span.latitudeDelta = 0.005;
+    span.longitudeDelta = 0.005;
+    CLLocationCoordinate2D location;
+    location.latitude = aUserLocation.coordinate.latitude;
+    location.longitude = aUserLocation.coordinate.longitude;
+    region.span = span;
+    region.center = location;
+    [aMapView setRegion:region animated:YES];
 }
 
 #pragma mark - View lifecycle
