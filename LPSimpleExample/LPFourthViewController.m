@@ -39,6 +39,9 @@
 //                                [NSURL URLWithString:@"http://www.google.com"]];
     
     [self.webView loadHTMLString:@"<html><head><title>Google</title></head>\
+     <style>.menu {position: absolute; left:0;top:0} .menu ul {position: absolute; left:50px; top:100px}\
+     a {position:absolute; left:100px}\
+     </style>\
      <body><h1>Google header</h1>\
      <div class='menu'><span class='heading'>Heading</span></div>\
      A\
@@ -68,6 +71,21 @@
      </ul></body>" 
     
                          baseURL:[NSURL URLWithString:@"http://localhost:8080"]];
+//[self.webView loadHTMLString:@"<html lang=\"en-GB\" >\
+//    <head>\
+//    <title>thing</title>\
+//    \
+//    <base href=\"\" />\
+//    </head>\
+//    <body>\
+//    \
+//    <h1> Hello</h1>\
+//    free text\
+//    \
+//    \
+//    </body>\
+//    </html>" 
+//                     baseURL: [NSURL URLWithString:@"http://localhost:8080"]];
 
     // Do any additional setup after loading the view from its nib.
 }

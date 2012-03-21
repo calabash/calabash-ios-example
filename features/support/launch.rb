@@ -28,7 +28,8 @@ require 'calabash-cucumber/launch/simulator_helper'
 # which includes calabash framework
 # this is usually the Calabash build configuration
 # of your production target.
-#APP_BUNDLE_PATH = "~/Library/Developer/Xcode/DerivedData/??/Build/Products/Calabash-iphonesimulator/??.app""
+#APP_BUNDLE_PATH="/Users/krukow/Library/Developer/Xcode/DerivedData/LPSimpleExample-gdcdajmqkkazgseooaupcrjmvpbs/Build/Products/Calabash-iphonesimulator22/LPSimpleExample.app" 
+
 #
 
 def relaunch

@@ -6,87 +6,50 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin XCConfigurationList section */
-		B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B137ADFC143F6EBF007184CB /* Debug */,
-				B137ADFD143F6EBF007184CB /* Release */,
-				OEFFD99705EC998EF40BD873 /* Calabash */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B137ADFE143F6EBF007184CB /* Build configuration list for PBXNativeTarget "LPSimpleExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B137ADFF143F6EBF007184CB /* Debug */,
-				B137AE00143F6EBF007184CB /* Release */,
-				OEF69BC36B487101205D15D0 /* Calabash */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		B137ADCF143F6EBF007184CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B137AE02143F7109007184CB /* MapKit.framework in Frameworks */,
-				B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */,
-				B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */,
-				B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */,
-				OEF37DF1779B896298FB0807 /* calabash.framework in Frameworks */,
-				OEFD75850C94AE900DCCED37 /* CFNetwork.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B10AE47F14C890A0003F1704 /* LPFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10AE48014C890A0003F1704 /* en */,
-			);
-			name = LPFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		B10AE48114C890A0003F1704 /* LPSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10AE48214C890A0003F1704 /* en */,
-			);
-			name = LPSecondViewController.xib;
-			sourceTree = "<group>";
-		};
-		B137ADDF143F6EBF007184CB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B137ADE0143F6EBF007184CB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B137ADF7143F6EBF007184CB /* en */,
-			);
-			name = LPFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B137ADFA143F6EBF007184CB /* en */,
-			);
-			name = LPSecondViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* Begin PBXBuildFile section */
+		B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD6143F6EBF007184CB /* UIKit.framework */; };
+		B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD8143F6EBF007184CB /* Foundation.framework */; };
+		B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADDA143F6EBF007184CB /* CoreGraphics.framework */; };
+		B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B137ADDF143F6EBF007184CB /* InfoPlist.strings */; };
+		B137ADE3143F6EBF007184CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE2143F6EBF007184CB /* main.m */; };
+		B137ADEA143F6EBF007184CB /* LPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE9143F6EBF007184CB /* LPFirstViewController.m */; };
+		B137ADEC143F6EBF007184CB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADEB143F6EBF007184CB /* first.png */; };
+		B137ADEE143F6EBF007184CB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADED143F6EBF007184CB /* first@2x.png */; };
+		B137ADF1143F6EBF007184CB /* LPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADF0143F6EBF007184CB /* LPSecondViewController.m */; };
+		B137ADF3143F6EBF007184CB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF2143F6EBF007184CB /* second.png */; };
+		B137ADF5143F6EBF007184CB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF4143F6EBF007184CB /* second@2x.png */; };
+		B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
+		B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
+		B137AE02143F7109007184CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE01143F7109007184CB /* MapKit.framework */; };
+		B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
+		B1497426144B4CBE00E6EE79 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
+		B19151CD14549E1200A70274 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
+		B19151D314549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
+		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
+		B1EE841A1517A88D0030AB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE2143F6EBF007184CB /* main.m */; };
+		B1EE841B1517A88D0030AB19 /* LPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE9143F6EBF007184CB /* LPFirstViewController.m */; };
+		B1EE841C1517A88D0030AB19 /* LPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADF0143F6EBF007184CB /* LPSecondViewController.m */; };
+		B1EE841D1517A88D0030AB19 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
+		B1EE841E1517A88D0030AB19 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
+		B1EE841F1517A88D0030AB19 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
+		B1EE84211517A88D0030AB19 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE01143F7109007184CB /* MapKit.framework */; };
+		B1EE84221517A88D0030AB19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD6143F6EBF007184CB /* UIKit.framework */; };
+		B1EE84231517A88D0030AB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD8143F6EBF007184CB /* Foundation.framework */; };
+		B1EE84241517A88D0030AB19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADDA143F6EBF007184CB /* CoreGraphics.framework */; };
+		B1EE84251517A88D0030AB19 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF6A7D2C1645DCBBB3DB835 /* calabash.framework */; };
+		B1EE84261517A88D0030AB19 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF551B494C7F5AD4A7842DF /* CFNetwork.framework */; };
+		B1EE84281517A88D0030AB19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B137ADDF143F6EBF007184CB /* InfoPlist.strings */; };
+		B1EE84291517A88D0030AB19 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADEB143F6EBF007184CB /* first.png */; };
+		B1EE842A1517A88D0030AB19 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADED143F6EBF007184CB /* first@2x.png */; };
+		B1EE842B1517A88D0030AB19 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF2143F6EBF007184CB /* second.png */; };
+		B1EE842C1517A88D0030AB19 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF4143F6EBF007184CB /* second@2x.png */; };
+		B1EE842D1517A88D0030AB19 /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
+		B1EE842E1517A88D0030AB19 /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
+		B1EE842F1517A88D0030AB19 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
+		B1EE84301517A88D0030AB19 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
+		OEF37DF1779B896298FB0807 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF6A7D2C1645DCBBB3DB835 /* calabash.framework */; };
+		OEFD75850C94AE900DCCED37 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF551B494C7F5AD4A7842DF /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B10AE48014C890A0003F1704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/LPSimpleExample/en.lproj/LPFirstViewController.xib"; sourceTree = "<group>"; };
@@ -120,72 +83,40 @@
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		OEF6A7D2C1645DCBBB3DB835 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		B1EE84351517A88D0030AB19 /* LPSimpleExample-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LPSimpleExample-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/github/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
 		OEF551B494C7F5AD4A7842DF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		OEF6A7D2C1645DCBBB3DB835 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXBuildFile section */
-		B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD6143F6EBF007184CB /* UIKit.framework */; };
-		B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD8143F6EBF007184CB /* Foundation.framework */; };
-		B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADDA143F6EBF007184CB /* CoreGraphics.framework */; };
-		B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B137ADDF143F6EBF007184CB /* InfoPlist.strings */; };
-		B137ADE3143F6EBF007184CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE2143F6EBF007184CB /* main.m */; };
-		B137ADEA143F6EBF007184CB /* LPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE9143F6EBF007184CB /* LPFirstViewController.m */; };
-		B137ADEC143F6EBF007184CB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADEB143F6EBF007184CB /* first.png */; };
-		B137ADEE143F6EBF007184CB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADED143F6EBF007184CB /* first@2x.png */; };
-		B137ADF1143F6EBF007184CB /* LPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADF0143F6EBF007184CB /* LPSecondViewController.m */; };
-		B137ADF3143F6EBF007184CB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF2143F6EBF007184CB /* second.png */; };
-		B137ADF5143F6EBF007184CB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF4143F6EBF007184CB /* second@2x.png */; };
-		B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
-		B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
-		B137AE02143F7109007184CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE01143F7109007184CB /* MapKit.framework */; };
-		B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
-		B1497426144B4CBE00E6EE79 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
-		B19151CD14549E1200A70274 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
-		B19151D314549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
-		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
-		OEF37DF1779B896298FB0807 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF6A7D2C1645DCBBB3DB835; };
-		OEFD75850C94AE900DCCED37 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OEF551B494C7F5AD4A7842DF; };
-/* End PBXBuildFile section */
-
-/* Begin PBXResourcesBuildPhase section */
-		B137ADD0143F6EBF007184CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXFrameworksBuildPhase section */
+		B137ADCF143F6EBF007184CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */,
-				B137ADEC143F6EBF007184CB /* first.png in Resources */,
-				B137ADEE143F6EBF007184CB /* first@2x.png in Resources */,
-				B137ADF3143F6EBF007184CB /* second.png in Resources */,
-				B137ADF5143F6EBF007184CB /* second@2x.png in Resources */,
-				B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */,
-				B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */,
-				B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */,
-				B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */,
+				B137AE02143F7109007184CB /* MapKit.framework in Frameworks */,
+				B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */,
+				B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */,
+				B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */,
+				OEF37DF1779B896298FB0807 /* calabash.framework in Frameworks */,
+				OEFD75850C94AE900DCCED37 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		B137ADD1143F6EBF007184CB /* LPSimpleExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B137ADFE143F6EBF007184CB /* Build configuration list for PBXNativeTarget "LPSimpleExample" */;
-			buildPhases = (
-				B137ADCE143F6EBF007184CB /* Sources */,
-				B137ADCF143F6EBF007184CB /* Frameworks */,
-				B137ADD0143F6EBF007184CB /* Resources */,
+		B1EE84201517A88D0030AB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EE84211517A88D0030AB19 /* MapKit.framework in Frameworks */,
+				B1EE84221517A88D0030AB19 /* UIKit.framework in Frameworks */,
+				B1EE84231517A88D0030AB19 /* Foundation.framework in Frameworks */,
+				B1EE84241517A88D0030AB19 /* CoreGraphics.framework in Frameworks */,
+				B1EE84251517A88D0030AB19 /* calabash.framework in Frameworks */,
+				B1EE84261517A88D0030AB19 /* CFNetwork.framework in Frameworks */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LPSimpleExample;
-			productName = LPSimpleExample;
-			productReference = B137ADD2143F6EBF007184CB /* LPSimpleExample.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXNativeTarget section */
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B10AE47C14C8909E003F1704 /* Resources-iPad */ = {
@@ -206,6 +137,7 @@
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
+				B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B137ADD2143F6EBF007184CB /* LPSimpleExample.app */,
+				B1EE84351517A88D0030AB19 /* LPSimpleExample-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,140 +202,102 @@
 		};
 /* End PBXGroup section */
 
-/* Begin XCBuildConfiguration section */
-		B137ADFC143F6EBF007184CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				COPY_PHASE_STRIP = NO;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				SDKROOT = iphoneos;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-			};
-			name = Debug;
+/* Begin PBXNativeTarget section */
+		B137ADD1143F6EBF007184CB /* LPSimpleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B137ADFE143F6EBF007184CB /* Build configuration list for PBXNativeTarget "LPSimpleExample" */;
+			buildPhases = (
+				B137ADCE143F6EBF007184CB /* Sources */,
+				B137ADCF143F6EBF007184CB /* Frameworks */,
+				B137ADD0143F6EBF007184CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPSimpleExample;
+			productName = LPSimpleExample;
+			productReference = B137ADD2143F6EBF007184CB /* LPSimpleExample.app */;
+			productType = "com.apple.product-type.application";
 		};
-		B137ADFD143F6EBF007184CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				COPY_PHASE_STRIP = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				VALIDATE_PRODUCT = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				SDKROOT = iphoneos;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-			};
-			name = Release;
+		B1EE84181517A88D0030AB19 /* LPSimpleExample-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EE84311517A88D0030AB19 /* Build configuration list for PBXNativeTarget "LPSimpleExample-cal" */;
+			buildPhases = (
+				B1EE84191517A88D0030AB19 /* Sources */,
+				B1EE84201517A88D0030AB19 /* Frameworks */,
+				B1EE84271517A88D0030AB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LPSimpleExample-cal";
+			productName = LPSimpleExample;
+			productReference = B1EE84351517A88D0030AB19 /* LPSimpleExample-cal.app */;
+			productType = "com.apple.product-type.application";
 		};
-		B137ADFF143F6EBF007184CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				WRAPPER_EXTENSION = app;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B137ADC9143F6EBF007184CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Trifork;
 			};
-			name = Debug;
+			buildConfigurationList = B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B137ADC7143F6EBF007184CB;
+			productRefGroup = B137ADD3143F6EBF007184CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B137ADD1143F6EBF007184CB /* LPSimpleExample */,
+				B1EE84181517A88D0030AB19 /* LPSimpleExample-cal */,
+			);
 		};
-		B137AE00143F6EBF007184CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				WRAPPER_EXTENSION = app;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-			};
-			name = Release;
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B137ADD0143F6EBF007184CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */,
+				B137ADEC143F6EBF007184CB /* first.png in Resources */,
+				B137ADEE143F6EBF007184CB /* first@2x.png in Resources */,
+				B137ADF3143F6EBF007184CB /* second.png in Resources */,
+				B137ADF5143F6EBF007184CB /* second@2x.png in Resources */,
+				B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */,
+				B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */,
+				B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */,
+				B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OEFFD99705EC998EF40BD873 /* Calabash */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				SDKROOT = iphoneos;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-			};
-			name = Calabash;
+		B1EE84271517A88D0030AB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EE84281517A88D0030AB19 /* InfoPlist.strings in Resources */,
+				B1EE84291517A88D0030AB19 /* first.png in Resources */,
+				B1EE842A1517A88D0030AB19 /* first@2x.png in Resources */,
+				B1EE842B1517A88D0030AB19 /* second.png in Resources */,
+				B1EE842C1517A88D0030AB19 /* second@2x.png in Resources */,
+				B1EE842D1517A88D0030AB19 /* LPFirstViewController.xib in Resources */,
+				B1EE842E1517A88D0030AB19 /* LPSecondViewController.xib in Resources */,
+				B1EE842F1517A88D0030AB19 /* LPThirdViewController.xib in Resources */,
+				B1EE84301517A88D0030AB19 /* LPFourthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OEF69BC36B487101205D15D0 /* Calabash */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = (
-					"-force_load",
-					"$(SRCROOT)/calabash.framework/calabash",
-					"-lstdc++",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				WRAPPER_EXTENSION = app;
-				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Calabash;
-		};
-/* End XCBuildConfiguration section */
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B137ADCE143F6EBF007184CB /* Sources */ = {
@@ -418,31 +313,294 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1EE84191517A88D0030AB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EE841A1517A88D0030AB19 /* main.m in Sources */,
+				B1EE841B1517A88D0030AB19 /* LPFirstViewController.m in Sources */,
+				B1EE841C1517A88D0030AB19 /* LPSecondViewController.m in Sources */,
+				B1EE841D1517A88D0030AB19 /* LPThirdViewController.m in Sources */,
+				B1EE841E1517A88D0030AB19 /* LPAppDelegate.m in Sources */,
+				B1EE841F1517A88D0030AB19 /* LPFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXProject section */
-		B137ADC9143F6EBF007184CB /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = Trifork;
-				LastUpgradeCheck = 0420;
-			};
-			buildConfigurationList = B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
+/* Begin PBXVariantGroup section */
+		B10AE47F14C890A0003F1704 /* LPFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10AE48014C890A0003F1704 /* en */,
 			);
-			mainGroup = B137ADC7143F6EBF007184CB;
-			productRefGroup = B137ADD3143F6EBF007184CB /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B137ADD1143F6EBF007184CB /* LPSimpleExample */,
-			);
+			name = LPFirstViewController.xib;
+			sourceTree = "<group>";
 		};
-/* End PBXProject section */
+		B10AE48114C890A0003F1704 /* LPSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10AE48214C890A0003F1704 /* en */,
+			);
+			name = LPSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		B137ADDF143F6EBF007184CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137ADE0143F6EBF007184CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137ADF7143F6EBF007184CB /* en */,
+			);
+			name = LPFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137ADFA143F6EBF007184CB /* en */,
+			);
+			name = LPSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B137ADFC143F6EBF007184CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B137ADFD143F6EBF007184CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B137ADFF143F6EBF007184CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B137AE00143F6EBF007184CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1EE84321517A88D0030AB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/calabash.framework/calabash",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "LPSimpleExample-cal";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1EE84331517A88D0030AB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/calabash.framework/calabash",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "LPSimpleExample-cal";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1EE84341517A88D0030AB19 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/calabash.framework/calabash",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "LPSimpleExample-cal";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Calabash;
+		};
+		OEF69BC36B487101205D15D0 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/calabash.framework/calabash",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Calabash;
+		};
+		OEFFD99705EC998EF40BD873 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Calabash;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137ADFC143F6EBF007184CB /* Debug */,
+				B137ADFD143F6EBF007184CB /* Release */,
+				OEFFD99705EC998EF40BD873 /* Calabash */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B137ADFE143F6EBF007184CB /* Build configuration list for PBXNativeTarget "LPSimpleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137ADFF143F6EBF007184CB /* Debug */,
+				B137AE00143F6EBF007184CB /* Release */,
+				OEF69BC36B487101205D15D0 /* Calabash */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EE84311517A88D0030AB19 /* Build configuration list for PBXNativeTarget "LPSimpleExample-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EE84321517A88D0030AB19 /* Debug */,
+				B1EE84331517A88D0030AB19 /* Release */,
+				B1EE84341517A88D0030AB19 /* Calabash */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
 	};
 	rootObject = B137ADC9143F6EBF007184CB /* Project object */;
 }

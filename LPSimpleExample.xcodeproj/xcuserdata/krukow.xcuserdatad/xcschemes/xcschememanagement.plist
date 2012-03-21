@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LPSimpleExample-cal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>LPSimpleExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B137ADD1143F6EBF007184CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1EE84181517A88D0030AB19</key>
 		<dict>
 			<key>primary</key>
 			<true/>
