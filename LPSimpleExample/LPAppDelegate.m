@@ -39,7 +39,7 @@
     UIViewController *viewController4 = [[[LPFourthViewController alloc] initWithNibName:@"LPFourthViewController" bundle:nil] autorelease];
 
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2,viewController3,viewController4, nil];
+    self.tabBarController.viewControllers = @[viewController1, viewController2,viewController3,viewController4];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
