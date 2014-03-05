@@ -26,6 +26,7 @@
 		B19151CD14549E1200A70274 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
 		B19151D314549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
 		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
+		F5E2D16518C75B3600A0D9B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D16418C75B3600A0D9B6 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
 		B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/github/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
+		F5E2D16418C75B3600A0D9B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		B137ADC7143F6EBF007184CB = {
 			isa = PBXGroup;
 			children = (
+				F5E2D16418C75B3600A0D9B6 /* Default-568h@2x.png */,
 				B10AE47C14C8909E003F1704 /* Resources-iPad */,
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
@@ -182,7 +185,7 @@
 		B137ADC9143F6EBF007184CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Trifork;
 			};
 			buildConfigurationList = B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */;
@@ -210,6 +213,7 @@
 				B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */,
 				B137ADEC143F6EBF007184CB /* first.png in Resources */,
 				B137ADEE143F6EBF007184CB /* first@2x.png in Resources */,
+				F5E2D16518C75B3600A0D9B6 /* Default-568h@2x.png in Resources */,
 				B137ADF3143F6EBF007184CB /* second.png in Resources */,
 				B137ADF5143F6EBF007184CB /* second@2x.png in Resources */,
 				B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */,
@@ -285,7 +289,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -301,10 +310,15 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -313,7 +327,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -322,8 +341,12 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
