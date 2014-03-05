@@ -61,7 +61,6 @@
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/github/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
 		F5E2D16418C75B3600A0D9B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +98,6 @@
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
-				B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
