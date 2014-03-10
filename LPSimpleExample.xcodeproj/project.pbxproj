@@ -13,26 +13,27 @@
 		B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B137ADDF143F6EBF007184CB /* InfoPlist.strings */; };
 		B137ADE3143F6EBF007184CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE2143F6EBF007184CB /* main.m */; };
 		B137ADEA143F6EBF007184CB /* LPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADE9143F6EBF007184CB /* LPFirstViewController.m */; };
-		B137ADEC143F6EBF007184CB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADEB143F6EBF007184CB /* first.png */; };
-		B137ADEE143F6EBF007184CB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADED143F6EBF007184CB /* first@2x.png */; };
 		B137ADF1143F6EBF007184CB /* LPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137ADF0143F6EBF007184CB /* LPSecondViewController.m */; };
-		B137ADF3143F6EBF007184CB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF2143F6EBF007184CB /* second.png */; };
-		B137ADF5143F6EBF007184CB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF4143F6EBF007184CB /* second@2x.png */; };
 		B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
 		B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
 		B137AE02143F7109007184CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE01143F7109007184CB /* MapKit.framework */; };
-		B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
 		B1497426144B4CBE00E6EE79 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
 		B19151CD14549E1200A70274 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151CC14549E1200A70274 /* LPAppDelegate.m */; };
 		B19151D314549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
-		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
+		F5A1674B18C9DC3E00C19BC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A1674A18C9DC3E00C19BC3 /* Default-568h@2x.png */; };
+		F5A1675118C9DC7900C19BC3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A1674D18C9DC7900C19BC3 /* first.png */; };
+		F5A1675218C9DC7900C19BC3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A1674E18C9DC7900C19BC3 /* first@2x.png */; };
+		F5A1675318C9DC7900C19BC3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A1674F18C9DC7900C19BC3 /* second.png */; };
+		F5A1675418C9DC7900C19BC3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A1675018C9DC7900C19BC3 /* second@2x.png */; };
+		F5E2D1B318C75F2200A0D9B6 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1AF18C75F2200A0D9B6 /* LPFourthViewController.xib */; };
+		F5E2D1B418C75F2200A0D9B6 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B118C75F2200A0D9B6 /* LPThirdViewController.xib */; };
+		F5E2D1BE18C7600400A0D9B6 /* LPFirstViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B618C7600400A0D9B6 /* LPFirstViewController~ipad.xib */; };
+		F5E2D1BF18C7600400A0D9B6 /* LPFourthViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B818C7600400A0D9B6 /* LPFourthViewController~ipad.xib */; };
+		F5E2D1C018C7600400A0D9B6 /* LPSecondViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1BA18C7600400A0D9B6 /* LPSecondViewController~ipad.xib */; };
+		F5E2D1C118C7600400A0D9B6 /* LPThirdViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1BC18C7600400A0D9B6 /* LPThirdViewController~ipad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B10AE48014C890A0003F1704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/LPSimpleExample/en.lproj/LPFirstViewController.xib"; sourceTree = "<group>"; };
-		B10AE48214C890A0003F1704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/LPSimpleExample/en.lproj/LPSecondViewController.xib"; sourceTree = "<group>"; };
-		B10AE48314C890A0003F1704 /* LPThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LPThirdViewController.xib; path = "Resources-iPad/LPSimpleExample/LPThirdViewController.xib"; sourceTree = "<group>"; };
-		B10AE48414C890A0003F1704 /* LPFourthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LPFourthViewController.xib; path = "Resources-iPad/LPSimpleExample/LPFourthViewController.xib"; sourceTree = "<group>"; };
 		B137ADD2143F6EBF007184CB /* LPSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B137ADD6143F6EBF007184CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B137ADD8143F6EBF007184CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,24 +44,28 @@
 		B137ADE4143F6EBF007184CB /* LPSimpleExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPSimpleExample-Prefix.pch"; sourceTree = "<group>"; };
 		B137ADE8143F6EBF007184CB /* LPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPFirstViewController.h; sourceTree = "<group>"; };
 		B137ADE9143F6EBF007184CB /* LPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPFirstViewController.m; sourceTree = "<group>"; };
-		B137ADEB143F6EBF007184CB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		B137ADED143F6EBF007184CB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		B137ADEF143F6EBF007184CB /* LPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSecondViewController.h; sourceTree = "<group>"; };
 		B137ADF0143F6EBF007184CB /* LPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSecondViewController.m; sourceTree = "<group>"; };
-		B137ADF2143F6EBF007184CB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B137ADF4143F6EBF007184CB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		B137ADF7143F6EBF007184CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPFirstViewController.xib; sourceTree = "<group>"; };
 		B137ADFA143F6EBF007184CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPSecondViewController.xib; sourceTree = "<group>"; };
 		B137AE01143F7109007184CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPThirdViewController.xib; sourceTree = "<group>"; };
 		B1497424144B4CBE00E6EE79 /* LPThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPThirdViewController.h; sourceTree = "<group>"; };
 		B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPThirdViewController.m; sourceTree = "<group>"; };
 		B19151CB14549E1200A70274 /* LPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
 		B19151CC14549E1200A70274 /* LPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
-		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/github/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
+		F5A1674A18C9DC3E00C19BC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5A1674D18C9DC7900C19BC3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F5A1674E18C9DC7900C19BC3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F5A1674F18C9DC7900C19BC3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F5A1675018C9DC7900C19BC3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F5E2D1B018C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPFourthViewController.xib; sourceTree = "<group>"; };
+		F5E2D1B218C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPThirdViewController.xib; sourceTree = "<group>"; };
+		F5E2D1B718C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPFirstViewController~ipad.xib"; sourceTree = "<group>"; };
+		F5E2D1B918C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPFourthViewController~ipad.xib"; sourceTree = "<group>"; };
+		F5E2D1BB18C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPSecondViewController~ipad.xib"; sourceTree = "<group>"; };
+		F5E2D1BD18C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPThirdViewController~ipad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,25 +83,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B10AE47C14C8909E003F1704 /* Resources-iPad */ = {
-			isa = PBXGroup;
-			children = (
-				B10AE47F14C890A0003F1704 /* LPFirstViewController.xib */,
-				B10AE48114C890A0003F1704 /* LPSecondViewController.xib */,
-				B10AE48314C890A0003F1704 /* LPThirdViewController.xib */,
-				B10AE48414C890A0003F1704 /* LPFourthViewController.xib */,
-			);
-			name = "Resources-iPad";
-			sourceTree = "<group>";
-		};
 		B137ADC7143F6EBF007184CB = {
 			isa = PBXGroup;
 			children = (
-				B10AE47C14C8909E003F1704 /* Resources-iPad */,
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
-				B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,25 +114,19 @@
 		B137ADDC143F6EBF007184CB /* LPSimpleExample */ = {
 			isa = PBXGroup;
 			children = (
+				F5A1674918C9DC3100C19BC3 /* required-artwork */,
+				F5E2D16718C75D7300A0D9B6 /* XIB */,
 				B19151CB14549E1200A70274 /* LPAppDelegate.h */,
 				B19151CC14549E1200A70274 /* LPAppDelegate.m */,
 				B137ADE8143F6EBF007184CB /* LPFirstViewController.h */,
 				B137ADE9143F6EBF007184CB /* LPFirstViewController.m */,
-				B137ADEB143F6EBF007184CB /* first.png */,
-				B137ADED143F6EBF007184CB /* first@2x.png */,
 				B137ADEF143F6EBF007184CB /* LPSecondViewController.h */,
 				B137ADF0143F6EBF007184CB /* LPSecondViewController.m */,
-				B137ADF2143F6EBF007184CB /* second.png */,
-				B137ADF4143F6EBF007184CB /* second@2x.png */,
-				B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */,
-				B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */,
-				B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */,
 				B1497424144B4CBE00E6EE79 /* LPThirdViewController.h */,
 				B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */,
-				B137ADDD143F6EBF007184CB /* Supporting Files */,
 				B19151D014549ED100A70274 /* LPFourthViewController.h */,
 				B19151D114549ED100A70274 /* LPFourthViewController.m */,
-				B19151D214549ED100A70274 /* LPFourthViewController.xib */,
+				B137ADDD143F6EBF007184CB /* Supporting Files */,
 			);
 			path = LPSimpleExample;
 			sourceTree = "<group>";
@@ -154,6 +140,57 @@
 				B137ADE4143F6EBF007184CB /* LPSimpleExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A1674918C9DC3100C19BC3 /* required-artwork */ = {
+			isa = PBXGroup;
+			children = (
+				F5A1674C18C9DC7900C19BC3 /* artwork */,
+				F5A1674A18C9DC3E00C19BC3 /* Default-568h@2x.png */,
+			);
+			name = "required-artwork";
+			sourceTree = "<group>";
+		};
+		F5A1674C18C9DC7900C19BC3 /* artwork */ = {
+			isa = PBXGroup;
+			children = (
+				F5A1674D18C9DC7900C19BC3 /* first.png */,
+				F5A1674E18C9DC7900C19BC3 /* first@2x.png */,
+				F5A1674F18C9DC7900C19BC3 /* second.png */,
+				F5A1675018C9DC7900C19BC3 /* second@2x.png */,
+			);
+			path = artwork;
+			sourceTree = "<group>";
+		};
+		F5E2D16718C75D7300A0D9B6 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2D1C218C7600C00A0D9B6 /* iPad */,
+				F5E2D1B518C75F3200A0D9B6 /* iPhone */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		F5E2D1B518C75F3200A0D9B6 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */,
+				B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */,
+				F5E2D1AF18C75F2200A0D9B6 /* LPFourthViewController.xib */,
+				F5E2D1B118C75F2200A0D9B6 /* LPThirdViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F5E2D1C218C7600C00A0D9B6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2D1B618C7600400A0D9B6 /* LPFirstViewController~ipad.xib */,
+				F5E2D1B818C7600400A0D9B6 /* LPFourthViewController~ipad.xib */,
+				F5E2D1BA18C7600400A0D9B6 /* LPSecondViewController~ipad.xib */,
+				F5E2D1BC18C7600400A0D9B6 /* LPThirdViewController~ipad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +219,8 @@
 		B137ADC9143F6EBF007184CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = Trifork;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Xamarin;
 			};
 			buildConfigurationList = B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -207,15 +244,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E2D1B418C75F2200A0D9B6 /* LPThirdViewController.xib in Resources */,
+				F5A1675118C9DC7900C19BC3 /* first.png in Resources */,
 				B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */,
-				B137ADEC143F6EBF007184CB /* first.png in Resources */,
-				B137ADEE143F6EBF007184CB /* first@2x.png in Resources */,
-				B137ADF3143F6EBF007184CB /* second.png in Resources */,
-				B137ADF5143F6EBF007184CB /* second@2x.png in Resources */,
+				F5E2D1C018C7600400A0D9B6 /* LPSecondViewController~ipad.xib in Resources */,
+				F5E2D1BF18C7600400A0D9B6 /* LPFourthViewController~ipad.xib in Resources */,
+				F5A1674B18C9DC3E00C19BC3 /* Default-568h@2x.png in Resources */,
+				F5E2D1BE18C7600400A0D9B6 /* LPFirstViewController~ipad.xib in Resources */,
+				F5E2D1C118C7600400A0D9B6 /* LPThirdViewController~ipad.xib in Resources */,
+				F5A1675418C9DC7900C19BC3 /* second@2x.png in Resources */,
 				B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */,
+				F5A1675318C9DC7900C19BC3 /* second.png in Resources */,
+				F5A1675218C9DC7900C19BC3 /* first@2x.png in Resources */,
+				F5E2D1B318C75F2200A0D9B6 /* LPFourthViewController.xib in Resources */,
 				B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */,
-				B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */,
-				B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,22 +280,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B10AE47F14C890A0003F1704 /* LPFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10AE48014C890A0003F1704 /* en */,
-			);
-			name = LPFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		B10AE48114C890A0003F1704 /* LPSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10AE48214C890A0003F1704 /* en */,
-			);
-			name = LPSecondViewController.xib;
-			sourceTree = "<group>";
-		};
 		B137ADDF143F6EBF007184CB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +304,54 @@
 			name = LPSecondViewController.xib;
 			sourceTree = "<group>";
 		};
+		F5E2D1AF18C75F2200A0D9B6 /* LPFourthViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1B018C75F2200A0D9B6 /* en */,
+			);
+			name = LPFourthViewController.xib;
+			sourceTree = "<group>";
+		};
+		F5E2D1B118C75F2200A0D9B6 /* LPThirdViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1B218C75F2200A0D9B6 /* en */,
+			);
+			name = LPThirdViewController.xib;
+			sourceTree = "<group>";
+		};
+		F5E2D1B618C7600400A0D9B6 /* LPFirstViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1B718C7600400A0D9B6 /* en */,
+			);
+			name = "LPFirstViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F5E2D1B818C7600400A0D9B6 /* LPFourthViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1B918C7600400A0D9B6 /* en */,
+			);
+			name = "LPFourthViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F5E2D1BA18C7600400A0D9B6 /* LPSecondViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1BB18C7600400A0D9B6 /* en */,
+			);
+			name = "LPSecondViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F5E2D1BC18C7600400A0D9B6 /* LPThirdViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E2D1BD18C7600400A0D9B6 /* en */,
+			);
+			name = "LPThirdViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -285,7 +359,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -301,10 +381,15 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -313,7 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -322,10 +413,14 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -335,12 +430,14 @@
 		B137ADFF143F6EBF007184CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
 				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -348,12 +445,14 @@
 		B137AE00143F6EBF007184CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
 				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
