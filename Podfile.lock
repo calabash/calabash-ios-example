@@ -1,0 +1,10 @@
+PODS:
+  - Calabash (0.9.169)
+
+DEPENDENCIES:
+  - Calabash (>= 0.9.169)
+
+SPEC CHECKSUMS:
+  Calabash: 97e723e894cbd22ab0fdb5a622ff9565479b6017
+
+COCOAPODS: 0.33.1
