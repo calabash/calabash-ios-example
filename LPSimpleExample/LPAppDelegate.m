@@ -42,6 +42,9 @@
     self.tabBarController.viewControllers = @[viewController1, viewController2,viewController3,viewController4];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+
+  //--- your custom code
+
     return YES;
 }
 

@@ -15,4 +15,5 @@
 @property (retain, nonatomic) IBOutlet UISwitch *uiswitch;
 @property (retain, nonatomic) IBOutlet UISegmentedControl *segControl;
 @property (retain, nonatomic) IBOutlet UITextField *textField;
+@property (retain, nonatomic) IBOutlet UILabel *result;
 @end

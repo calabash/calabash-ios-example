@@ -70,6 +70,18 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+  //-- Set Notification
+  if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+  {
+    [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+    [[UIApplication sharedApplication] registerForRemoteNotifications];
+  }
+  else
+  {
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+     (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+  }
+
 }
 
 - (void)viewWillDisappear:(BOOL)animated

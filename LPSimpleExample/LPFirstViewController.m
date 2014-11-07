@@ -44,6 +44,19 @@
     // Return YES for supported orientations
     return YES;
 }
+- (IBAction)tl:(id)sender {
+  self.result.text = @"tl";
+  
+}
+- (IBAction)tr:(id)sender {
+    self.result.text = @"tr";
+}
+- (IBAction)br:(id)sender {
+    self.result.text = @"br";
+}
+- (IBAction)bl:(id)sender {
+    self.result.text = @"bl";
+}
 
 - (void)dealloc {
     [textField release];
@@ -51,6 +64,7 @@
 
     [uiswitch release];
     [button release];
+  [_result release];
     [super dealloc];
 }
 - (void)viewDidUnload {

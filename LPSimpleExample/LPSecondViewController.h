@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface LPSecondViewController : UIViewController
-
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+@interface LPSecondViewController : UIViewController  <MKMapViewDelegate,  CLLocationManagerDelegate>
+@property (retain, nonatomic)   CLLocationManager *locationManager;
+@property (retain, nonatomic)   MKMapView *mapView;
 @end
