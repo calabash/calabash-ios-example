@@ -144,7 +144,6 @@
 		B19151CC14549E1200A70274 /* LPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
-		B1B9A613196483F100B4954A /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/code/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
 		B1FBB9F819CFDF2100EE03CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B1FBBB4419CFF20300EE03CE /* CalabashServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashServer.h; sourceTree = "<group>"; };
 		B1FBBB4519CFF20300EE03CE /* CalabashServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashServer.m; sourceTree = "<group>"; };
@@ -318,7 +317,6 @@
 		B1FBBC5119CFF21300EE03CE /* LPWebQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWebQuery.m; sourceTree = "<group>"; };
 		B1FBBC5319CFF25D00EE03CE /* LPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDevice.m; sourceTree = "<group>"; };
 		B1FBBC5519CFF26500EE03CE /* LPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDevice.h; sourceTree = "<group>"; };
-		EE5BE61222D14D8F973B44D5 /* Pods-LPSimpleExample-cal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPSimpleExample-cal.xcconfig"; path = "Pods/Pods-LPSimpleExample-cal.xcconfig"; sourceTree = "<group>"; };
 		F5A1674A18C9DC3E00C19BC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5A1674D18C9DC7900C19BC3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		F5A1674E18C9DC7900C19BC3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
@@ -361,8 +359,6 @@
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
-				B1B9A613196483F100B4954A /* LPSimpleExample copy-Info.plist */,
-				EE5BE61222D14D8F973B44D5 /* Pods-LPSimpleExample-cal.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
