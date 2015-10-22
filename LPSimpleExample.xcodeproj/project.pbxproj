@@ -456,7 +456,7 @@
 				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lesspainful.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calaba.LPSimpleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "61cc1cc9-94a4-4582-aa7e-f15dba0c5e07";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +473,7 @@
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
 				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lesspainful.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calaba.LPSimpleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "61cc1cc9-94a4-4582-aa7e-f15dba0c5e07";
 				TARGETED_DEVICE_FAMILY = "1,2";
