@@ -20,25 +20,19 @@
 @synthesize window = _window;
 @synthesize tabBarController = _tabBarController;
 
-- (void)dealloc
-{
-    [_window release];
-    [_tabBarController release];
-    [super dealloc];
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[LPFirstViewController alloc] initWithNibName:@"LPFirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[LPSecondViewController alloc] initWithNibName:@"LPSecondViewController" bundle:nil] autorelease];
+    UIViewController *viewController1 = [[LPFirstViewController alloc] initWithNibName:@"LPFirstViewController" bundle:nil];
+    UIViewController *viewController2 = [[LPSecondViewController alloc] initWithNibName:@"LPSecondViewController" bundle:nil];
     
-    UIViewController *viewController3 = [[[LPThirdViewController alloc] initWithNibName:@"LPThirdViewController" bundle:nil] autorelease];
+    UIViewController *viewController3 = [[LPThirdViewController alloc] initWithNibName:@"LPThirdViewController" bundle:nil];
 
-    UIViewController *viewController4 = [[[LPFourthViewController alloc] initWithNibName:@"LPFourthViewController" bundle:nil] autorelease];
+    UIViewController *viewController4 = [[LPFourthViewController alloc] initWithNibName:@"LPFourthViewController" bundle:nil];
 
-    self.tabBarController = [[[UITabBarController alloc] init] autorelease];
+    self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2,viewController3,viewController4];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];

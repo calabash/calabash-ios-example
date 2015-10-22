@@ -18,10 +18,10 @@
         NSString *title = NSLocalizedString(@"Third", @"Third");
         UIImage *image = [UIImage imageNamed:@"dog"];
         UIImage *selected = [UIImage imageNamed:@"dog-selected"];
-        self.tabBarItem = [[[UITabBarItem alloc]
+        self.tabBarItem = [[UITabBarItem alloc]
                             initWithTitle:title
                             image:image
-                            selectedImage:selected] autorelease];
+                            selectedImage:selected];
     }
     return self;
 }
@@ -131,7 +131,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.showsReorderControl = YES;
         
     }

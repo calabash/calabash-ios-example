@@ -19,10 +19,10 @@
         NSString *title = NSLocalizedString(@"Second", @"Second");
         UIImage *image = [UIImage imageNamed:@"fish"];
         UIImage *selected = [UIImage imageNamed:@"fish-selected"];
-        self.tabBarItem = [[[UITabBarItem alloc]
+        self.tabBarItem = [[UITabBarItem alloc]
                             initWithTitle:title
                             image:image
-                            selectedImage:selected] autorelease];
+                            selectedImage:selected];
     }
     return self;
 }

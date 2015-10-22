@@ -22,10 +22,10 @@
         NSString *title = NSLocalizedString(@"First", @"First");
         UIImage *image = [UIImage imageNamed:@"elephant"];
         UIImage *selected = [UIImage imageNamed:@"elephant-selected"];
-        self.tabBarItem = [[[UITabBarItem alloc]
+        self.tabBarItem = [[UITabBarItem alloc]
                             initWithTitle:title
                             image:image
-                            selectedImage:selected] autorelease];
+                            selectedImage:selected];
     }
     return self;
 }
@@ -63,15 +63,6 @@
     self.result.text = @"bl";
 }
 
-- (void)dealloc {
-    [textField release];
-    [segControl release];
-
-    [uiswitch release];
-    [button release];
-  [_result release];
-    [super dealloc];
-}
 - (void)viewDidUnload {
     [self setTextField:nil];
     [self setSegControl:nil];

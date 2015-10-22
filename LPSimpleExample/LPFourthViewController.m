@@ -18,10 +18,10 @@
         NSString *title = NSLocalizedString(@"Fourth", @"Fourth");
         UIImage *image = [UIImage imageNamed:@"cat"];
         UIImage *selected = [UIImage imageNamed:@"cat-selected"];
-        self.tabBarItem = [[[UITabBarItem alloc]
+        self.tabBarItem = [[UITabBarItem alloc]
                             initWithTitle:title
                             image:image
-                            selectedImage:selected] autorelease];
+                            selectedImage:selected];
     }
     return self;
 }
@@ -64,8 +64,4 @@
     return YES;
 }
 
-- (void)dealloc {
-    [webView release];
-    [super dealloc];
-}
 @end
