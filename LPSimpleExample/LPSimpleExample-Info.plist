@@ -8,16 +8,10 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>NSLocationUsageDescription</key>
-	<string>Coz I needz it!</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Coz I needz it when in use!</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Coz I needz it alwayz!</string>
 	<key>CFBundleIconFiles</key>
 	<array/>
 	<key>CFBundleIdentifier</key>
-	<string>com.lesspainful.example.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -32,6 +26,12 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Coz I needz it alwayz!</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Coz I needz it!</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Coz I needz it when in use!</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
