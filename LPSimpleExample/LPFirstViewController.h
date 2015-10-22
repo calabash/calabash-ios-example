@@ -10,10 +10,10 @@
 
 @interface LPFirstViewController : UIViewController<UITextFieldDelegate>
 
-@property (retain, nonatomic) IBOutlet UIButton *button;
+@property (strong, nonatomic) IBOutlet UIButton *button;
 
-@property (retain, nonatomic) IBOutlet UISwitch *uiswitch;
-@property (retain, nonatomic) IBOutlet UISegmentedControl *segControl;
-@property (retain, nonatomic) IBOutlet UITextField *textField;
-@property (retain, nonatomic) IBOutlet UILabel *result;
+@property (strong, nonatomic) IBOutlet UISwitch *uiswitch;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segControl;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UILabel *result;
 @end

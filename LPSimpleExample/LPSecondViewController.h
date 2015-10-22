@@ -10,6 +10,6 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 @interface LPSecondViewController : UIViewController  <MKMapViewDelegate,  CLLocationManagerDelegate>
-@property (retain, nonatomic)   CLLocationManager *locationManager;
-@property (retain, nonatomic)   MKMapView *mapView;
+@property (strong, nonatomic)   CLLocationManager *locationManager;
+@property (strong, nonatomic)   MKMapView *mapView;
 @end

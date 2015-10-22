@@ -15,9 +15,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Third", @"Third");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
-        
+        NSString *title = NSLocalizedString(@"Third", @"Third");
+        UIImage *image = [UIImage imageNamed:@"dog"];
+        UIImage *selected = [UIImage imageNamed:@"dog-selected"];
+        self.tabBarItem = [[UITabBarItem alloc]
+                            initWithTitle:title
+                            image:image
+                            selectedImage:selected];
     }
     return self;
 }
@@ -127,14 +131,12 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.showsReorderControl = YES;
         
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell %d",indexPath.row];
-    
-    
+    cell.textLabel.text = [NSString stringWithFormat:@"Cell %@", @(indexPath.row)];
     
     return cell;
 }

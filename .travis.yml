@@ -1,0 +1,15 @@
+language: objective-c
+
+script:
+  - make app
+  - make xct
+
+notifications:
+  email:
+    recipients:
+      - joshuajmoody@gmail.com
+      - karl.krukow@xamarin.com
+      - chris.fuentes@xamarin.com
+    on_success: change
+    on_failure: always
+
