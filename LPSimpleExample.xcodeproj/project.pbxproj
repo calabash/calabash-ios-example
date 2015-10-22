@@ -25,6 +25,7 @@
 		B1FBB9F919CFDF2100EE03CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBB9F819CFDF2100EE03CE /* Security.framework */; };
 		F55F26EA1BD8ED0E00CA572D /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55F26E91BD8ED0E00CA572D /* Image.xcassets */; };
 		F5CF882F1BD8FABC0062882A /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CF882E1BD8FABC0062882A /* page.html */; };
+		F5CF88371BD8FC880062882A /* LPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CF88361BD8FC880062882A /* LPTest.m */; };
 		F5E2D1B318C75F2200A0D9B6 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1AF18C75F2200A0D9B6 /* LPFourthViewController.xib */; };
 		F5E2D1B418C75F2200A0D9B6 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B118C75F2200A0D9B6 /* LPThirdViewController.xib */; };
 		F5E2D1BE18C7600400A0D9B6 /* LPFirstViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B618C7600400A0D9B6 /* LPFirstViewController~ipad.xib */; };
@@ -32,6 +33,16 @@
 		F5E2D1C018C7600400A0D9B6 /* LPSecondViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1BA18C7600400A0D9B6 /* LPSecondViewController~ipad.xib */; };
 		F5E2D1C118C7600400A0D9B6 /* LPThirdViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1BC18C7600400A0D9B6 /* LPThirdViewController~ipad.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CF88391BD8FC880062882A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B137ADC9143F6EBF007184CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B137ADD1143F6EBF007184CB;
+			remoteInfo = LPSimpleExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B126C4C01A0D20EB005338E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -59,6 +70,9 @@
 		B1FBB9F819CFDF2100EE03CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F55F26E91BD8ED0E00CA572D /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		F5CF882E1BD8FABC0062882A /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
+		F5CF88341BD8FC880062882A /* XCTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CF88361BD8FC880062882A /* LPTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPTest.m; sourceTree = "<group>"; };
+		F5CF88381BD8FC880062882A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E2D1B018C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPFourthViewController.xib; sourceTree = "<group>"; };
 		F5E2D1B218C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPThirdViewController.xib; sourceTree = "<group>"; };
 		F5E2D1B718C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPFirstViewController~ipad.xib"; sourceTree = "<group>"; };
@@ -83,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5CF88311BD8FC880062882A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
+				F5CF88351BD8FC880062882A /* XCTest */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
 			);
@@ -100,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B137ADD2143F6EBF007184CB /* LPSimpleExample.app */,
+				F5CF88341BD8FC880062882A /* XCTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +171,15 @@
 				B137ADE4143F6EBF007184CB /* LPSimpleExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CF88351BD8FC880062882A /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF88361BD8FC880062882A /* LPTest.m */,
+				F5CF88381BD8FC880062882A /* Info.plist */,
+			);
+			path = XCTest;
 			sourceTree = "<group>";
 		};
 		F5E2D16718C75D7300A0D9B6 /* XIB */ = {
@@ -201,6 +233,24 @@
 			productReference = B137ADD2143F6EBF007184CB /* LPSimpleExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F5CF88331BD8FC880062882A /* XCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CF883B1BD8FC880062882A /* Build configuration list for PBXNativeTarget "XCTest" */;
+			buildPhases = (
+				F5CF88301BD8FC880062882A /* Sources */,
+				F5CF88311BD8FC880062882A /* Frameworks */,
+				F5CF88321BD8FC880062882A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CF883A1BD8FC880062882A /* PBXTargetDependency */,
+			);
+			name = XCTest;
+			productName = XCTests;
+			productReference = F5CF88341BD8FC880062882A /* XCTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +260,12 @@
 				CLASSPREFIX = LP;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Calabash;
+				TargetAttributes = {
+					F5CF88331BD8FC880062882A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B137ADD1143F6EBF007184CB;
+					};
+				};
 			};
 			buildConfigurationList = B137ADCC143F6EBF007184CB /* Build configuration list for PBXProject "LPSimpleExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,6 +280,7 @@
 			projectRoot = "";
 			targets = (
 				B137ADD1143F6EBF007184CB /* LPSimpleExample */,
+				F5CF88331BD8FC880062882A /* XCTest */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +304,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5CF88321BD8FC880062882A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,7 +327,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5CF88301BD8FC880062882A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CF88371BD8FC880062882A /* LPTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CF883A1BD8FC880062882A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B137ADD1143F6EBF007184CB /* LPSimpleExample */;
+			targetProxy = F5CF88391BD8FC880062882A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B137ADDF143F6EBF007184CB /* InfoPlist.strings */ = {
@@ -461,6 +541,54 @@
 			};
 			name = Release;
 		};
+		F5CF883C1BD8FC880062882A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = XCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calab.XCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPSimpleExample.app/LPSimpleExample";
+			};
+			name = Debug;
+		};
+		F5CF883D1BD8FC880062882A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = XCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calab.XCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPSimpleExample.app/LPSimpleExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -481,6 +609,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F5CF883B1BD8FC880062882A /* Build configuration list for PBXNativeTarget "XCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CF883C1BD8FC880062882A /* Debug */,
+				F5CF883D1BD8FC880062882A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

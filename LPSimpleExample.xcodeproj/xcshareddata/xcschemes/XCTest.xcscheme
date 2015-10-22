@@ -9,9 +9,23 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5CF88331BD8FC880062882A"
+               BuildableName = "XCTest.xctest"
+               BlueprintName = "XCTest"
+               ReferencedContainer = "container:LPSimpleExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B137ADD1143F6EBF007184CB"
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B137ADD1143F6EBF007184CB"
-            BuildableName = "LPSimpleExample.app"
-            BlueprintName = "LPSimpleExample"
+            BlueprintIdentifier = "F5CF88331BD8FC880062882A"
+            BuildableName = "XCTest.xctest"
+            BlueprintName = "XCTest"
             ReferencedContainer = "container:LPSimpleExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,16 +75,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B137ADD1143F6EBF007184CB"
-            BuildableName = "LPSimpleExample.app"
-            BlueprintName = "LPSimpleExample"
+            BlueprintIdentifier = "F5CF88331BD8FC880062882A"
+            BuildableName = "XCTest.xctest"
+            BlueprintName = "XCTest"
             ReferencedContainer = "container:LPSimpleExample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +93,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B137ADD1143F6EBF007184CB"
-            BuildableName = "LPSimpleExample.app"
-            BlueprintName = "LPSimpleExample"
-            ReferencedContainer = "container:LPSimpleExample.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
