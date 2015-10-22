@@ -223,6 +223,7 @@
 				B137ADCE143F6EBF007184CB /* Sources */,
 				B137ADCF143F6EBF007184CB /* Frameworks */,
 				B137ADD0143F6EBF007184CB /* Resources */,
+				F5CF883E1BD907D30062882A /* Run Script stage binaries to ./Products */,
 			);
 			buildRules = (
 			);
@@ -312,6 +313,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5CF883E1BD907D30062882A /* Run Script stage binaries to ./Products */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script stage binaries to ./Products";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bin/xcode-build-phase/stage-LPSimpleExample-products.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B137ADCE143F6EBF007184CB /* Sources */ = {
