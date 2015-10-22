@@ -136,9 +136,7 @@
         
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell %d",indexPath.row];
-    
-    
+    cell.textLabel.text = [NSString stringWithFormat:@"Cell %@", @(indexPath.row)];
     
     return cell;
 }
