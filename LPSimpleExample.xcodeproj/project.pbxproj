@@ -24,6 +24,7 @@
 		B1FBB9F719CFDF1400EE03CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ba062f8db2cc162e28bbeebc /* CFNetwork.framework */; };
 		B1FBB9F919CFDF2100EE03CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBB9F819CFDF2100EE03CE /* Security.framework */; };
 		F55F26EA1BD8ED0E00CA572D /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55F26E91BD8ED0E00CA572D /* Image.xcassets */; };
+		F5CF882F1BD8FABC0062882A /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CF882E1BD8FABC0062882A /* page.html */; };
 		F5E2D1B318C75F2200A0D9B6 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1AF18C75F2200A0D9B6 /* LPFourthViewController.xib */; };
 		F5E2D1B418C75F2200A0D9B6 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B118C75F2200A0D9B6 /* LPThirdViewController.xib */; };
 		F5E2D1BE18C7600400A0D9B6 /* LPFirstViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E2D1B618C7600400A0D9B6 /* LPFirstViewController~ipad.xib */; };
@@ -57,6 +58,7 @@
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B1FBB9F819CFDF2100EE03CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F55F26E91BD8ED0E00CA572D /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		F5CF882E1BD8FABC0062882A /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
 		F5E2D1B018C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPFourthViewController.xib; sourceTree = "<group>"; };
 		F5E2D1B218C75F2200A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPThirdViewController.xib; sourceTree = "<group>"; };
 		F5E2D1B718C7600400A0D9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/LPFirstViewController~ipad.xib"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		B137ADDC143F6EBF007184CB /* LPSimpleExample */ = {
 			isa = PBXGroup;
 			children = (
+				F5CF882E1BD8FABC0062882A /* page.html */,
 				F55F26E91BD8ED0E00CA572D /* Image.xcassets */,
 				F5E2D16718C75D7300A0D9B6 /* XIB */,
 				B19151CB14549E1200A70274 /* LPAppDelegate.h */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E2D1B418C75F2200A0D9B6 /* LPThirdViewController.xib in Resources */,
+				F5CF882F1BD8FABC0062882A /* page.html in Resources */,
 				B137ADE1143F6EBF007184CB /* InfoPlist.strings in Resources */,
 				F5E2D1C018C7600400A0D9B6 /* LPSecondViewController~ipad.xib in Resources */,
 				F5E2D1BF18C7600400A0D9B6 /* LPFourthViewController~ipad.xib in Resources */,
