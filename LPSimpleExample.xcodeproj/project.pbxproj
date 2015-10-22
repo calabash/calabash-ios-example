@@ -91,6 +91,7 @@
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
 		};
 		B137ADD3143F6EBF007184CB /* Products */ = {

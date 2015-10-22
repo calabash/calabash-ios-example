@@ -15,9 +15,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Fourth", @"Fourth");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
-
+        NSString *title = NSLocalizedString(@"Fourth", @"Fourth");
+        UIImage *image = [UIImage imageNamed:@"cat"];
+        UIImage *selected = [UIImage imageNamed:@"cat-selected"];
+        self.tabBarItem = [[[UITabBarItem alloc]
+                            initWithTitle:title
+                            image:image
+                            selectedImage:selected] autorelease];
     }
     return self;
 }
