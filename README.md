@@ -1,87 +1,156 @@
-Example for Calabash iOS
-========================
+| master  |  [license](LICENSE) |
+|---------|---------------------|
+|[![Build Status](https://travis-ci.org/calabash/calabash-ios-example.svg?branch=master)](https://travis-ci.org/calabash/calabash-ios-example)| [![License](https://img.shields.io/badge/licence-MIT-blue.svg)](http://opensource.org/licenses/MIT)|
 
-See
- [https://github.com/calabash/calabash-ios](https://github.com/calabash/calabash-ios)
+## LPSimpleExample
 
-# Frank plugin support
+This project demonstrates how to integrate Calabash into an existing Xcode
+project and provides an introduction to UI testing with Calabash.
 
-Intro...
+If you have any trouble building the app on the command line, please see
+the **xcpretty** and **Code Signing** sections for debugging tips.
 
-To try the Frank-Calabash plugin support do the following.
+### Requirements
 
-1. Make sure frank version `1.2.3` or above is installed. (`gem install frank-cucumber`)
+* MacOS 10.10 or 10.11
+* Xcode 6 or 7
+* iOS Devices >= 7.1
+* iOS Simulators >= 8.0
+* ruby >= 2.0 (latest is preferred)
 
-2. Make sure Calabash version `0.10.0` or above is installed (`gem install calabash-cucumber`).
+We recommend a managed ruby environment like rbenv or rvm.  If you are
+installing gems with sudo, please see our [guide on why you should stop](https://github.com/calabash/calabash-ios/wiki/Best-Practice:--Never-install-gems-with-sudo).
 
-3. Run frank setup: `frank setup` (if using rbenv remember to run `rbenv rehash` after installing frank). 
-
-```
-   I found more than one target in this project. Which is the main app target that you wish to Frankify?
-
-   1: LPSimpleExample
-   2: LPSimpleExample-cal
-   > 1
-```
-
-4. Run `frank-calabash install` to install the Calabash plugin to frank:
+Bundler needs to be installed.
 
 ```
-   frank-calabash install
-   Creating directory Frank/plugins/calabash
-   Copied files Frank/plugins/calabash/calabash.xcconfig.erb, Frank/plugins/calabash/libFrankCalabash.a
-
-   Installed Frank-Calabash plugin.
-   Please rebuild using frank build.
+$ gem install bundler
 ```
 
-5. Run `frank build` to build the project for simulator. Verify the successful build of: `"./Frank/frankified_build/Frankified.app"`.
+### Step 1: Install calabash.framework
 
-Now it's time to tryout the Frank-Calabash console:
+You can find complete tutorials on the [Tutorial: How to add Calabash to
+Xcode](https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-How-to-add-Calabash-to-Xcode)
+page of the Calabash iOS wiki.  To get started quickly, we'll use the
+_Debug Config_ approach.
 
 ```
-$ frank-calabash console
-[1] pry(#<Frank::Console>)> launch
-=> nil
-[2] pry(#<Frank::Console>)> c = calabash_client
-=> #<Frank::Calabash::Client:0x007fb3290f4c48>
-[3] pry(#<Frank::Console>)> c.query("button")
-=> [{"class"=>"UIRoundedRectButton",
-  "id"=>nil,
-  "rect"=>
-   {"center_x"=>136,
-    "y"=>287,
-    "width"=>72,
-    "x"=>100,
-    "center_y"=>305.5,
-    "height"=>37},
-  "frame"=>{"y"=>287, "width"=>72, "x"=>100, "height"=>37},
-  "label"=>"BAL:42",
-  "description"=>
-   "<UIRoundedRectButton: 0x17650a80; frame = (100 287; 72 37); opaque = NO; autoresize = RM+BM; layer = <CALayer: 0x17650c10>>"},
- {"class"=>"UIRoundedRectButton",
-  "id"=>nil,
-  "rect"=>
-   {"center_x"=>145.5,
-    "y"=>215,
-    "width"=>73,
-    "x"=>109,
-    "center_y"=>233.5,
-    "height"=>37},
-  "frame"=>{"y"=>215, "width"=>73, "x"=>109, "height"=>37},
-  "label"=>"login",
-  "description"=>
-   "<UIRoundedRectButton: 0x17648e50; frame = (109 215; 73 37); opaque = NO; autoresize = RM+BM; layer = <CALayer: 0x176491c0>>"}]
-[6] pry(#<Frank::Console>)> c.touch("view marked:'Second'")
-=> [{"class"=>"UITabBarButton",
-  "id"=>nil,
-  "rect"=>
-   {"center_x"=>120, "y"=>520, "width"=>76, "x"=>82, "center_y"=>544, "height"=>48},
-  "frame"=>{"y"=>1, "width"=>76, "x"=>82, "height"=>48},
-  "label"=>"Second",
-  "description"=>
-   "<UITabBarButton: 0x17573150; frame = (82 1; 76 48); opaque = NO; layer = <CALayer: 0x17573680>>"}]
-[7] pry(#<Frank::Console>)> launch(app:'com.lesspainful.example.LPSimpleExample', device_target:'device')
-[7] pry(#<Frank::Console>)>
+# Install the necessary gems
+$ bundle update
+
+# Make sure you can build the app
+$ make app
+
+# Download the last calabash.framework
+$ bundle exec calabash-ios download
+```
+
+Open Xcode and update the Linker Flags for the Debug Configuration.
+
+![alt text](https://cloud.githubusercontent.com/assets/466104/10670656/c9c97312-78e6-11e5-8214-750a47a065eb.png "Link calabash.framework)
+
+These are the linker flags:
+
+```
+-ObjC -force_load "$(SOURCE_ROOT)/calabash.framework/calabash" -framework CFNetwork
+```
+
+Try to build and run on an iOS Simulator from Xcode   In the Console you should see
+output like this:
+
+```
+DEBUG CalabashServer:222 | Creating the server: <LPHTTPServer: 0x7fe97a507ef0>
+DEBUG CalabashServer:223 | Calabash iOS server version: CALABASH VERSION: 0.16.4
+```
+
+### Step 2: Run cucumber
+
+```
+# Generate a features dir
+$ bundle exec calabash-ios gen
+
+# Tell Calabash where your app is
+$ export APP=Products/app/LPSimpleExample.app
+
+# Try running cucumber
+$ bundle exec cucumber
+```
+
+### Step 3: Open a console
+
+```
+# The console is a ruby irb
+$ bundle exec calabash-ios console
+
+# Launch the app with Calabash.
+> start_test_server_in_background
+
+# Type some text
+> query("* marked:'Name'")
+> touch("* marked:'Name'")
+> keyboard_enter_text("Hello!")
+```
+
+### Where to go from here?
+
+| Topic | Description |
+|-------|-------------|
+| [Getting Started](https://github.com/calabash/calabash-ios/wiki/Getting-Started) | A more in-depth using this app. |
+| [Testing on Physical Devices](https://github.com/calabash/calabash-ios/wiki/Testing-on-Physical-Devices) | Everything you need to know about testing on physical devices. |
+| [API Docs](http://calabashapi.xamarin.com/ios) | The Calabash iOS ruby API |
+| [iOS Smoke Test App](https://github.com/calabash/ios-smoke-test-app) | Demonstrates advanced features, setups, and workflows|
+| [iOS WebView Test App](https://github.com/calabash/ios-webview-test-app) | Demonstrates how to interact with UIWebView and WKWebView|
+| [Getting Help](https://github.com/calabash/calabash-ios/wiki) | The Calabash iOS Wiki |
+
+## Troubleshooting
+
+### xcpretty
+
+https://github.com/supermarin/xcpretty
+
+We use xcpretty to make builds faster and to reduce the amount of
+logging.  Travis CI, for example, has a limit on the number of lines of
+logging that can be generated; xcodebuild breaks this limit.
+
+The only problem with xcpretty is that it does not report build errors
+very well.  If you encounter an issue with any of the make rules, run
+without xcpretty:
+
+```
+$ XCPRETTY=0 make ipa
+```
+
+### Code Signing
+
+If you have multiple code signing identities, you might need to set the
+`CODE_SIGN_IDENTITY` variable for the make scripts.  If you are running
+with xcpretty, you might see output like this:
+
+```
+$ make ipa
+** INSTALL FAILED **
+
+The following build commands failed:
+        PhaseScriptExecution Run\ Script\ Add\ Calabash\ dylibs\ to\
+Bundle
+<snip>/Debug-iphoneos/CalSmoke.build/Script-F51F2E8E1AB359A6002326D0.sh
+```
+
+Try again without xpretty to reveal the problem:
+
+```
+$ XCPRETTY=0 make ipa
+iPhone Developer: ambiguous (matches "iPhone Developer: Some Developer
+(89543FK9SZ)" and "iPhone Developer: Some Other Developer (7QJQJFT49Q)"
+Command /bin/sh failed with exit code 1
+
+** INSTALL FAILED **
+```
+
+Fix this problem by telling Xcode which identity to use:
+
+```
+$ export CODE_SIGN_IDENTITY="iPhone Developer: Joshua Moody (7QJQJFT49Q)"
+$ make ipa
 ```
 
