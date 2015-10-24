@@ -95,7 +95,7 @@ $ bundle exec calabash-ios console
 
 | Topic | Description |
 |-------|-------------|
-| [Getting Started](https://github.com/calabash/calabash-ios/wiki/Getting-Started) | A more in-depth using this app. |
+| [Getting Started](https://github.com/calabash/calabash-ios/wiki/Getting-Started) | A more in-depth tutorial using this app. |
 | [Testing on Physical Devices](https://github.com/calabash/calabash-ios/wiki/Testing-on-Physical-Devices) | Everything you need to know about testing on physical devices. |
 | [API Docs](http://calabashapi.xamarin.com/ios) | The Calabash iOS ruby API |
 | [iOS Smoke Test App](https://github.com/calabash/ios-smoke-test-app) | Demonstrates advanced features, setups, and workflows|
