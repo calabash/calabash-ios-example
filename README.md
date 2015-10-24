@@ -69,7 +69,7 @@ DEBUG CalabashServer:223 | Calabash iOS server version: CALABASH VERSION: 0.16.4
 # Generate a features dir
 $ bundle exec calabash-ios gen
 
-# Tell Calabash where your app is
+# Tell Calabash where your app is (see Where is are the .app and ipa? below)
 $ export APP=Products/app/LPSimpleExample.app
 
 # Try running cucumber
@@ -101,6 +101,10 @@ $ bundle exec calabash-ios console
 | [iOS Smoke Test App](https://github.com/calabash/ios-smoke-test-app) | Demonstrates advanced features, setups, and workflows|
 | [iOS WebView Test App](https://github.com/calabash/ios-webview-test-app) | Demonstrates how to interact with UIWebView and WKWebView|
 | [Getting Help](https://github.com/calabash/calabash-ios/wiki) | The Calabash iOS Wiki |
+
+### Where are the .app and .ipa?
+
+This project includes a [Run Phase build script](https://github.com/calabash/calabash-ios-example/blob/master/bin/xcode-build-phase/stage-LPSimpleExample-products.sh) that copies binaries built by Xcode to a local `Products/` directory - this is the same directory that the [make rules](https://github.com/calabash/calabash-ios-example/blob/master/Makefile) stage their build products. We encourage you to use this technique to ensure that you are always testing the most recent build of your app - whether it was built with Xcode or from the command line.
 
 ## Troubleshooting
 
