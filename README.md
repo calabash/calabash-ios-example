@@ -47,7 +47,7 @@ $ bundle exec calabash-ios download
 
 Open Xcode and update the Linker Flags for the Debug Configuration.
 
-![alt text](https://cloud.githubusercontent.com/assets/466104/10670656/c9c97312-78e6-11e5-8214-750a47a065eb.png "Link calabash.framework)
+![alt text](https://cloud.githubusercontent.com/assets/466104/10670656/c9c97312-78e6-11e5-8214-750a47a065eb.png "Link calabash.framework")
 
 These are the linker flags:
 
