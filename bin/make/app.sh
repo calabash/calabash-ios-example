@@ -71,17 +71,20 @@ BUILD_PRODUCTS_DSYM="${BUILD_PRODUCTS_DIR}/${DSYM}"
 
 rm -rf "${BUILD_PRODUCTS_APP}"
 rm -rf "${BUILD_PRODUCTS_DSYM}"
+mkdir -p "${BUILD_PRODUCTS_DIR}"
 
-info "Prepared archive directory"
+info "Prepared build directory ${XC_BUILD_DIR}"
 
 banner "Building ${IPA}"
 
 if [ -z "${CODE_SIGN_IDENTITY}" ]; then
   COMMAND_LINE_BUILD=1 xcrun xcodebuild \
     -SYMROOT="${XC_BUILD_DIR}" \
-    -derivedDataPath "${XC_BUILD_DIR}" \
+    BUILT_PRODUCTS_DIR="${BUILD_PRODUCTS_DIR}" \
+    TARGET_BUILD_DIR="${BUILD_PRODUCTS_DIR}" \
+    DWARF_DSYM_FOLDER_PATH="${BUILD_PRODUCTS_DIR}" \
     -project "${XC_PROJECT}" \
-    -scheme "${XC_TARGET}" \
+    -target "${XC_TARGET}" \
     -configuration "${XC_CONFIG}" \
     -sdk iphonesimulator \
     ARCHS="i386 x86_64" \
@@ -92,9 +95,11 @@ else
   COMMAND_LINE_BUILD=1 xcrun xcodebuild \
     CODE_SIGN_IDENTITY="${CODE_SIGN_IDENTITY}" \
     -SYMROOT="${XC_BUILD_DIR}" \
-    -derivedDataPath "${XC_BUILD_DIR}" \
+    BUILT_PRODUCTS_DIR="${BUILD_PRODUCTS_DIR}" \
+    TARGET_BUILD_DIR="${BUILD_PRODUCTS_DIR}" \
+    DWARF_DSYM_FOLDER_PATH="${BUILD_PRODUCTS_DIR}" \
     -project "${XC_PROJECT}" \
-    -scheme "${XC_TARGET}" \
+    -target "${XC_TARGET}" \
     -configuration "${XC_CONFIG}" \
     -sdk iphonesimulator \
     ARCHS="i386 x86_64" \
