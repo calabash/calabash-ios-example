@@ -39,3 +39,5 @@ screenshots
 ## Build products
 build
 
+## Gemfile lock
+*.lock
